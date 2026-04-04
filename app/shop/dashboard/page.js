@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Search, MessageCircle, User, Users, Zap, Handshake, X, DollarSign } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { getRecommendedInfluencers } from '@/lib/matching';
-import { formatCurrency, formatNumber, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { getRecommendedInfluencers } from '../../../lib/matching';
+import { formatCurrency, formatNumber, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 import Link from 'next/link';
 
 const C = {

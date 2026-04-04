@@ -1,6 +1,6 @@
 "use client";
-import Topbar from "@/components/admin/Topbar";
-import { WEEKLY_MATCHES, STATS } from "@/lib/adminData";
+import Topbar from "../../../components/admin/Topbar";
+import { WEEKLY_MATCHES, STATS } from "../../../lib/adminData";
 
 const MONTHLY = [
   { month: "Oct", matches: 420, gmv: 180000 },

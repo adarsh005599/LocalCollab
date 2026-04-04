@@ -5,9 +5,9 @@ import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { TrendingUp, Search, MessageCircle, User, Edit2, Check, X, MapPin, Tag, DollarSign, Mail, FileText, Handshake } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { formatCurrency, categories, cities, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { formatCurrency, categories, cities, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC',

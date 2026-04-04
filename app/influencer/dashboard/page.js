@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { TrendingUp, Briefcase, MessageCircle, User, Zap, DollarSign, Users, Handshake } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { getRecommendedShops } from '@/lib/matching';
-import { formatCurrency, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { getRecommendedShops } from '../../../lib/matching';
+import { formatCurrency, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC', // Soft Cream

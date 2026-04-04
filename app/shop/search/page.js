@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Search, MessageCircle, User, SlidersHorizontal, Handshake, X, DollarSign } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { filterInfluencers, calculateMatchScore } from '@/lib/matching';
-import { formatCurrency, formatNumber, categories, cities, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { filterInfluencers, calculateMatchScore } from '../../../lib/matching';
+import { formatCurrency, formatNumber, categories, cities, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 
 const C = {

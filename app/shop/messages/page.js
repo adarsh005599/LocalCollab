@@ -3,10 +3,10 @@
 import { useEffect, useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Search, MessageCircle, User, Send, Handshake } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { supabase } from '@/lib/supabase';
-import { formatTime, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { supabase } from '../../../lib/supabase';
+import { formatTime, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC', // Soft Cream

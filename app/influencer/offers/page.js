@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Briefcase, MessageCircle, User, Handshake, ChevronDown, ChevronUp, Check, X, RefreshCw } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { formatCurrency, getInitials, formatTime } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { formatCurrency, getInitials, formatTime } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC',

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Handshake, Mail, Lock, Eye, EyeOff, Users, Target, Zap } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '../../lib/supabase';
 
 const C = {
     bg: '#F5F5DC', // Soft Cream

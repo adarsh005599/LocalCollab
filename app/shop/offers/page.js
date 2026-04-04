@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Search, MessageCircle, User, Handshake, ChevronDown, ChevronUp, Check, X, RefreshCw } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { formatCurrency, getInitials, formatTime } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
-import SecureDealModal from '@/components/SecureDealModal';
+import { storage } from '../../../lib/storage';
+import { formatCurrency, getInitials, formatTime } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
+import SecureDealModal from '../../../components/SecureDealModal';
 
 const C = {
     bg: '#F5F5DC',

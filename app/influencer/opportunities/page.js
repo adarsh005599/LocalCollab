@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { TrendingUp, Briefcase, MessageCircle, User, SlidersHorizontal, Handshake, X, DollarSign, CheckCircle, XCircle, Eye } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { filterShops, calculateMatchScore } from '@/lib/matching';
-import { formatCurrency, categories, cities, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { filterShops, calculateMatchScore } from '../../../lib/matching';
+import { formatCurrency, categories, cities, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC',

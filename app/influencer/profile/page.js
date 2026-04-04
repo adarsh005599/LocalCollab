@@ -4,9 +4,9 @@ import { useEffect, useState, useRef, Suspense } from 'react';
 import Image from 'next/image';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { TrendingUp, Briefcase, MessageCircle, User, Edit2, Check, X, MapPin, Tag, DollarSign, Mail, Users, FileText, BarChart2, Instagram, Youtube, Camera, Handshake } from 'lucide-react';
-import { storage } from '@/lib/storage';
-import { formatCurrency, formatNumber, categories, cities, getInitials } from '@/lib/utils';
-import Sidebar from '@/components/Sidebar';
+import { storage } from '../../../lib/storage';
+import { formatCurrency, formatNumber, categories, cities, getInitials } from '../../../lib/utils';
+import Sidebar from '../../../components/Sidebar';
 
 const C = {
     bg: '#F5F5DC',

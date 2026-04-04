@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Handshake, Mail, Lock, User, Building2, UserCircle, Eye, EyeOff, ArrowLeft } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '../../lib/supabase';
 
 const C = {
     bg: '#F5F5DC',
