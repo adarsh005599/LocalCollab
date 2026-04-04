@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply bg-[#F5F5DC] text-[#1E293B] font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#397754] hover:bg-[#2B5A3F] text-white font-semibold rounded-lg shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer text-center inline-flex items-center justify-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-[#EB6B40] hover:bg-[#C1522D] text-white font-semibold rounded-lg shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer text-center inline-flex items-center justify-center gap-2;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border border-[#E2E8F0] bg-white text-[#1E293B] font-semibold rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all duration-200 cursor-pointer text-center inline-flex items-center justify-center gap-2;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-[#E2E8F0] shadow-card hover:shadow-card-hover transition-all duration-300;
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg text-[#64748B] font-medium hover:bg-[#F5F5DC] hover:text-[#397754] transition-all duration-200;
+  }
+
+  .nav-item-active {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg font-semibold bg-[#F5F5DC] text-[#397754] transition-all duration-200;
+  }
+}
+
+/* Animations */
+.animate-fade-up {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fadeIn 0.6s ease-out 0.15s forwards;
+  opacity: 0;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fadeIn 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-mesh {
+  /* allow overriding with a CSS variable `--hero-bg` (e.g. url('/hero.jpg'))
+     fallback uses the animated gradient */
+  background-image: var(--hero-bg, linear-gradient(-45deg, #F5F5DC, #e8f0eb, #ffe8df, #F5F5DC));
+  background-size: cover, 400% 400%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.45);
+  background-blend-mode: multiply;
+  animation: floatBackground 12s ease infinite;
+}
