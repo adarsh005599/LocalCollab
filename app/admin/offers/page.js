@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import Topbar from "@/components/admin/Topbar";
-import StatusBadge from "@/components/admin/StatusBadge";
-import { OFFERS } from "@/lib/adminData";
+import Topbar from "../../../components/admin/Topbar";
+import StatusBadge from "../../../components/admin/StatusBadge";
+import { OFFERS } from "../../../lib/adminData";
 
 export default function OffersPage() {
   const [data, setData] = useState(OFFERS);
