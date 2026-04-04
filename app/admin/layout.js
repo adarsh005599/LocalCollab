@@ -1,4 +1,4 @@
-import Sidebar from "@/components/admin/Sidebar";
+import Sidebar from "../../components/admin/Sidebar";
 
 export const metadata = { title: "NOX Admin" };
 
