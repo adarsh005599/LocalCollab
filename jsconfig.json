@@ -1,14 +1,9 @@
 {
-    "compilerOptions": {
-        "ignoreDeprecations": "6.0",
-        "baseUrl": ".",
-        "paths": {
-            "@/*": [
-                "./*"
-            ]
-        }
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
 }

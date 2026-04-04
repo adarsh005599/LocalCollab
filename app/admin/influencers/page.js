@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import Topbar from "@/components/admin/Topbar";
-import StatusBadge from "@/components/admin/StatusBadge";
-import { INFLUENCERS } from "@/lib/adminData";
+import Topbar from "../../../components/admin/Topbar";
+import StatusBadge from "../../../components/admin/StatusBadge";
+import { INFLUENCERS } from "../../../lib/adminData";
 
 const NICHES = ["All", "Fashion", "Beauty", "Food", "Fitness", "Tech", "Wellness", "Travel"];
 
