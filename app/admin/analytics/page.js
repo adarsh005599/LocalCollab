@@ -1,5 +1,5 @@
 "use client";
-import Topbar from "@/components/admin/Topbar";
+import Topbar from "../../../components/admin/Topbar";
 import { WEEKLY_MATCHES, STATS } from "@/lib/adminData";
 
 const MONTHLY = [
