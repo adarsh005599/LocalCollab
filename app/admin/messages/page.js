@@ -1,5 +1,5 @@
 "use client";
-import Topbar from "@/components/admin/Topbar";
+import Topbar from "../../../components/admin/Topbar";
 
 const CONVERSATIONS = [
   { id: 1, influencer: "Priya Sharma",  shop: "Zara India",     preview: "Sounds good! I can post by Friday.", time: "2m ago",  unread: true,  flagged: false },
