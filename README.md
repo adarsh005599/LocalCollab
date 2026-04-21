@@ -5,7 +5,6 @@ LIVE AT- https://local-collab-2.vercel.app  or https://local-collab.vercel.app/
 **LocalCollab** is an AI-powered marketplace that connects **local businesses** with **micro-influencers** — making influencer marketing affordable, transparent, and hyper-local.
 
 ---
-
 ## 🌟 What Is This Project?
 
 Many small businesses (restaurants, boutiques, gyms, salons, etc.) want to promote themselves through social media influencers but can't afford large agencies or celebrity influencers. On the other side, thousands of micro-influencers with engaged local audiences struggle to find paid collaboration opportunities.
