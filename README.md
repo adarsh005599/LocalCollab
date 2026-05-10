@@ -15,6 +15,7 @@ Many small businesses (restaurants, boutiques, gyms, salons, etc.) want to promo
 
 ---
 
+
 ## ✨ Key Features
 
 ### For Businesses (Shops)
